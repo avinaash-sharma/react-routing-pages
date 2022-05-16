@@ -24,6 +24,7 @@ const LinkItems = [
   { name: "Page Two", icon: FiHome, to: "home-two" },
   { name: "Settings", icon: FiSettings, to: "settings" },
 ];
+console.log("🚀 ~ file: MainPage.js ~ line 27 ~ LinkItems", LinkItems)
 
 export default function SidebarWithHeader({ children }) {
   const location = useLocation();
